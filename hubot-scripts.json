@@ -4,5 +4,19 @@
     "ackbar.coffee",
     "catfacts.coffee",
     "coin.coffee",
-    "dice.coffee"
+    "dice.coffee",
+    "github-status.coffee",
+    "grumpycat.coffee",
+    "hideyakids.coffee",
+    "imdb.coffee",
+    "invalid.coffee",
+    "itcrowd.coffee",
+    "kittens.coffee",
+    "likeaboss.coffee",
+    "pomodoro.coffee",
+    "thanks-obama.coffee",
+    "walmart.coffee",
+    "working-on.coffee",
+    "yoda-quotes.coffee",
+    "zombies.coffee"
 ]
