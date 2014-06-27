@@ -3,5 +3,6 @@
     "shipit.coffee",
     "ackbar.coffee",
     "catfacts.coffee",
-    "coin.coffee"
+    "coin.coffee",
+    "dice.coffee"
 ]
