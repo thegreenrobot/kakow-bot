@@ -2,5 +2,6 @@
     "redis-brain.coffee", 
     "shipit.coffee",
     "ackbar.coffee",
-    "catfacts.coffee"
+    "catfacts.coffee",
+    "coin.coffee"
 ]
