@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   dingo quote - Returns a random Frisky Dingo quote
+#   archer quote - Returns a random Archer quote
 #
 # Author:
 #   morgajel
