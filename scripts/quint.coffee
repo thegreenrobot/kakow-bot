@@ -41,7 +41,12 @@ quotes = [
   "Did any of you guys watch The Office last night? - Quint",
   "I'm using a Macbook Air.  Mike can have my old second hand laptop. - Quint",
   "He's been vetted! - Quint",
-  "MindTap is the future of the business. I'm in a lot of high level meetings talking about this. - Quint"
+  "MindTap is the future of the business. I'm in a lot of high level meetings talking about this. - Quint",
+  "We've made great progress as a team. - Quint",
+  "What are these spikes on Vantage? - Quint",
+  "Hey guys these champagne mojitos are delicious. - Quint",
+  "What are you guys doing for lunch? How about Chinese? - Quint",
+  "Is Jun sleeping? - Quint"
 ]
 
 module.exports = (robot) ->
