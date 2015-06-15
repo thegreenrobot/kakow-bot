@@ -2,6 +2,8 @@
 
 Hubot for fun and hacking.
 
+[![Build Status](https://travis-ci.org/thegreenrobot/kakow-bot.svg?branch=master)](https://travis-ci.org/thegreenrobot/kakow-bot)
+
 # Hubot
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.
