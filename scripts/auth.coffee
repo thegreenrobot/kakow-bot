@@ -1,3 +1,5 @@
+# coffeelint: disable=max_line_length
+#
 # Description:
 #   Auth allows you to assign roles to users which can be used by other scripts
 #   to restrict access to Hubot commands
@@ -119,3 +121,5 @@ module.exports = (robot) ->
       msg.reply "The following people have the 'admin' role: #{adminNames.join(', ')}"
     else
       msg.reply "There are no people that have the 'admin' role."
+
+# coffeelint: enable=max_line_length

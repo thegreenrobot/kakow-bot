@@ -4,6 +4,8 @@
 # Commands:
 #   hubot map me <query> - Returns a map view of the area returned by `query`.
 
+# coffeelint: disable=max_line_length
+
 module.exports = (robot) ->
 
   robot.respond /(?:(satellite|terrain|hybrid)[- ])?map me (.+)/i, (msg) ->
@@ -24,3 +26,4 @@ module.exports = (robot) ->
     msg.send mapUrl
     msg.send url
 
+# coffeelint: enable=max_line_length

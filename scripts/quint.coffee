@@ -13,6 +13,8 @@
 # Author:
 #   thegreenrobot
 
+# coffeelint: disable=max_line_length
+
 quotes = [
   "I'll fire your ass. - Quint",
   "My guitar is made from aged wood. - Quint",
@@ -48,6 +50,8 @@ quotes = [
   "What are you guys doing for lunch? How about Chinese? - Quint",
   "Is Jun sleeping? - Quint"
 ]
+
+# coffeelint: enable=max_line_length
 
 module.exports = (robot) ->
   robot.hear /.*(quint quote).*/i, (msg) ->

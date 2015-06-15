@@ -13,6 +13,7 @@
 # Author:
 #   morgajel
 
+# coffeelint: disable=max_line_length
 
 quotes = [
     "Archer: I have to go. But if I find one single dog hair when I get back, I'll rub...sand...in your dead little eyes.\n
@@ -130,8 +131,9 @@ quotes = [
     
     "Malory: [noticing doughnuts scattered across the floor] Oh, for heaven's sake... do you want ants? Because that's how you get ants!"
 
-
 ]
+
+# coffeelint: enable=max_line_length
 
 module.exports = (robot) ->
   robot.hear /.*(archer quote).*/i, (msg) ->
