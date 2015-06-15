@@ -17,6 +17,8 @@
 #   /hubot/info
 #   /hubot/ip
 
+# coffeelint: disable=max_line_length
+
 spawn = require('child_process').spawn
 
 module.exports = (robot) ->
@@ -40,3 +42,5 @@ module.exports = (robot) ->
   robot.router.get "/hubot/ip", (req, res) ->
     robot.http('http://ifconfig.me/ip').get() (err, r, body) ->
       res.end body
+
+# coffeelint: enable=max_line_length

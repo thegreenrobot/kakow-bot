@@ -13,8 +13,10 @@
 # Author:
 #   thegreenrobot
 
+# coffeelint: disable=max_line_length
+
 quotes = [
-    "Grandpa: Westley didn’t reach his destination. His ship was attacked by the Dread Pirate Roberts, who never left captives alive. When Buttercup got the news that Westley was murdered…\n 
+    "Grandpa: Westley didn’t reach his destination. His ship was attacked by the Dread Pirate Roberts, who never left captives alive. When Buttercup got the news that Westley was murdered…\n
      The Grandson: Murdered by pirates is good.",
 
     "Fezzik: I just want you to feel you’re doing well. I hate for people to die embarrassed.",
@@ -85,6 +87,8 @@ quotes = [
 
     "Inigo Montoya: He's right on top of us. I wonder if he is using the same wind we are using."
 ]
+
+# coffeelint: enable=max_line_length
 
 module.exports = (robot) ->
   robot.hear /.*(pb quote).*/i, (msg) ->

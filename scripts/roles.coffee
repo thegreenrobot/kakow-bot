@@ -10,6 +10,8 @@
 #   hubot holman is an ego surfer
 #   hubot holman is not an ego surfer
 
+# coffeelint: disable=max_line_length
+
 module.exports = (robot) ->
 
   if process.env.HUBOT_AUTH_ADMIN?
@@ -87,3 +89,4 @@ module.exports = (robot) ->
       else
         msg.send "I don't know anything about #{name}."
 
+# coffeelint: enable=max_line_length

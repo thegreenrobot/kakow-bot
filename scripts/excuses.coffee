@@ -1,3 +1,5 @@
+# coffeelint: disable=max_line_length
+#
 # Description:
 #   Developer excuses.  Straight up stolen from https://gist.github.com/Dorian/28a49b82ee9f026e5823
 #
@@ -148,6 +150,8 @@ quotes = [
   "You're doing it wrong",
   "Your browser must be caching the old content"
 ]
+
+# coffeelint: enable=max_line_length
 
 module.exports = (robot) ->
   robot.hear /.*(dev quote).*/i, (msg) ->

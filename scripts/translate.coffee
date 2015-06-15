@@ -1,3 +1,5 @@
+# coffeelint: disable=max_line_length
+#
 # Description:
 #   Allows Hubot to know many languages.
 #
@@ -73,7 +75,7 @@ languages =
 
 getCode = (language,languages) ->
   for code, lang of languages
-      return code if lang.toLowerCase() is language.toLowerCase()
+    return code if lang.toLowerCase() is language.toLowerCase()
 
 module.exports = (robot) ->
   language_choices = (language for _, language of languages).sort().join('|')
@@ -112,3 +114,4 @@ module.exports = (robot) ->
             else
               msg.send "The #{language} #{term} translates as #{parsed} in #{languages[target]}"
 
+# coffeelint: enable=max_line_length

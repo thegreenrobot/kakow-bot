@@ -1,3 +1,5 @@
+# coffeelint: disable=max_line_length
+#
 # Description:
 #   Messing around with the YouTube API.
 #
@@ -26,3 +28,4 @@ module.exports = (robot) ->
           if link.rel is "alternate" and link.type is "text/html"
             msg.send link.href
 
+# coffeelint: enable=max_line_length
