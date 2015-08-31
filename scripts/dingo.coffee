@@ -13,6 +13,8 @@
 # Author:
 #   thegreenrobot
 
+# coffeelint: disable=max_line_length
+
 quotes = [
   "Wendell: Cody II is down!",
   "Wendell: You ever taken a dump and you throw up on your dick?",
@@ -129,6 +131,8 @@ quotes = [
     Awesome X: Well, that's great, Ronnie...\n
     Ronnie: Oh, Bilbo Baggins."
 ]
+
+# coffeelint: enable=max_line_length
 
 module.exports = (robot) ->
   robot.hear /.*(dingo quote).*/i, (msg) ->
